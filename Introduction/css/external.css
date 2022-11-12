@@ -1,0 +1,14 @@
+h1
+{
+    color:aqua;
+    text-align: center;
+}
+body
+{
+    background-color: black;
+}
+h2
+{
+    background-position-x: left;
+    background-color:green;
+}
