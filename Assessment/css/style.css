@@ -1,0 +1,103 @@
+ body 
+    {
+        background-color:white;
+        height: 20px;
+        width: auto;
+    }
+    .mainbar{
+        background-color: blue;
+        width: auto;
+        
+    }
+.navbar
+{   
+   
+    height: 50px;
+    margin: 2%;
+    padding: 5px 35px;
+    margin-left: 800px;
+    
+}
+.navbar button
+{
+    margin-top: 3%;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin: 20px;
+    margin-left: 0%;
+    width: 50px;
+    font-size: 16px;
+}
+.btn{
+    color: rgb(0, 0, 0) !important;
+    background-color: white!important;
+}   
+.drop 
+{
+    position: relative;
+    
+}
+.dropdown 
+{
+    width: 100px;
+    height: 140px;
+    display: none;
+    text-align: left;
+    background-color: blue;
+    position: relative;
+   
+    
+}
+.drop:hover .dropdown
+{
+    display: block !important;
+    
+}
+
+
+.drop1 
+{
+width: 1000px !important;
+position: absolute;
+margin-bottom: 50%;
+
+    
+    
+}
+.dropdown1 
+{
+    width: 70px;
+    height: auto;
+    display: none;
+    text-align: left;
+    margin-left: 10% !important;
+    padding: 10px 5px !important;
+    background-color: blue;
+    position: absolute;
+    top: -10px;
+    
+}
+.drop1:hover .dropdown1
+{
+    display: block !important;
+}
+
+
+.dropdown a
+{
+    margin: 5px;
+    padding: 1%;
+    color:white;   
+    text-decoration: none;
+    border: none; 
+}
+
+.dropdown a
+{
+    margin: 5px;
+    padding: 1%;
+    color:white;   
+    text-decoration: none;
+    border: none; 
+}
