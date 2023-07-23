@@ -1,0 +1,72 @@
+body
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color:#3c90ce;
+}
+#main-section
+{
+     width:100%;
+     height:auto;
+     margin: auto;
+     padding:0;
+     display: flex;
+     flex-direction: row;
+}
+.content-1
+{
+    width:45%;
+    height: auto;
+    margin:auto;
+    padding:20px; 
+}
+.content-2
+{
+    width:45%;
+    height: auto;
+    padding:20px;
+    margin-top: 5%; 
+}
+hr
+{
+    width: 54%;
+    height: auto;
+    color:black ;
+}
+img
+{
+    height: 200px;
+    width:80%;
+    margin-top: 15%;
+}
+input[type="text"], input[type="email"],input[type="number"],textarea
+{
+    width:220px;
+    height: auto;
+    padding: 6px;
+    box-shadow:black 0px 5px 5px 0px;
+    border: none;
+    outline: none;
+}
+input[type="submit"]
+{
+    width:120px;
+    height: auto;
+    padding:8px;
+    background-color: green;
+    color: white;
+    border: none;
+    box-shadow:black 0px 5px 5px 0px;
+}
+input[type="reset"]
+{
+    width:120px;
+    height: auto;
+    padding:8px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 3%;
+    box-shadow:black 0px 5px 5px 0px;
+}

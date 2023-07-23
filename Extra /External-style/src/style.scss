@@ -1,0 +1,116 @@
+$background-color:#3c90ce;
+$margin:0%;
+$margin1:33%;
+$margin2:2.1%;
+$margin3:auto;
+$margin-buttom:1%;
+$margin-bottom1:10%;
+$margin-top:5%;
+$margin-top1:1.5%;
+$margin-left:25%;
+$margin-left1: 150%;
+$padding:0%;
+$padding1:17px;
+$padding2:10px;
+$padding3:10px 50px;
+$padding4:5px 10px;
+$box:border-box;
+$img:cover;
+$height:100%;
+$heigth1:auto;
+$height2:600px;
+$width:33.5%;
+$width1:44%;
+$width2:95%;
+$width3:100%;
+$width4:47.5%;
+$width5:240%;
+$border:1px solid #4269c3 ; 
+$color:#2c3e67;
+$color1:white;
+$outline:none;
+$text:center;
+$box:5px 5px 5px 5px #2c3e67;
+
+
+body{
+    margin:$margin;
+    padding: $padding;
+    background-color:$background-color;
+    margin-top:$margin-top;
+    box-sizing: $box;
+    color: #2c3e67;
+}
+h1{
+    text-align:$text;
+}
+.frm{
+    margin-top:$margin-top1;
+    margin-bottom: $margin-buttom;
+    width: $width;
+    padding:$padding1;
+    margin-left:$margin1;
+    background-color: $background-color;
+    border: $border;
+    box-shadow: $box;
+}
+.First{
+    width:$width1;
+    padding:$padding2;
+    border:$border;
+    outline:$outline;
+}
+.Last{
+    width: $width1;
+    margin-left:$margin2;
+    padding:$padding2;
+    border:$border;
+    outline:$outline;
+}
+.Number{
+    width:$width2;
+    padding:$margin2;
+    border:$border;
+    outline:$outline;
+}
+.Summary{
+    width:$width2;
+    padding: $margin2;
+    border:$border;
+    outline: $outline;
+}
+select{
+    width: $width3;
+    padding:$margin2;
+    border:$border;
+    outline: $outline;
+}
+.button{
+ text-align: center;
+ margin-left: $margin-left;
+ width: $width1;
+ background-color:$color;
+ color:$color1;
+ padding:$padding2;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    .fa-arrow-down
+    {
+        margin-left:$margin-left1;
+        margin-bottom:$margin-bottom1;
+    }
+    .frm{
+        width:$width5;
+        height:$height2;
+    }
+    .Last{
+        width:$width4;
+    }
+    .button{
+        margin-top: $margin-top1;
+    }
+}
