@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+.grey{
+    color: #5c6577;
+}
+.lightgrey{
+    color: #9ca6b9;
+}
+.bgcolor{
+    background-color: #f7f5f5 !important;
+}
+.latterspace{
+    letter-spacing: 3px !important;
+}
+/* header start  */
+.brand{
+    width: 60px !important;
+    height: 60px !important;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px !important;
+}
+.nav ul li a:hover{
+    color: blue !important;
+    text-decoration: underline !important;
+    transition: 1s all;
+}
+.nav{
+float: right !important;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+}
+ li{
+    list-style: none !important;
+}
+.changer{
+    float: right;
+    text-align: right;
+    margin-top: 25% !important;
+}
+.bi-facebook:hover{
+    color: rgb(82, 82, 221);
+    background: none;
+}
+.bi-twitter:hover{
+    color: rgb(37, 143, 178);
+}
+.bi-dribbble:hover{
+    color: palevioletred;
+}
