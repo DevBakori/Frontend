@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important ;
+}
+.bi{
+    margin-left: 3px !important;
+}
+.navimg
+{
+    width:20px;
+    height:30px;
+}
+li {
+    display: inline-block !important;
+}
+li a{
+    padding:10px 5px;
+    color:black;
+}
+li a :hover{
+    color:black;
+}
+.slider{
+    background-size: cover;
+    background-image: url(images/slider-images.webp);
+    height:400px;
+    padding-left:15%;
+    padding-top: 10%;
+}
+.slider1{
+    background-size: cover;
+    background-image: url(images/slider-images.webp);
+    height:400px;
+    color:white;
+}
+.slider-image
+{
+    width: 188  px;
+    height: 200px;
+    margin:2px;
+}
+.slider2
+{
+    width:86% !important;
+}
