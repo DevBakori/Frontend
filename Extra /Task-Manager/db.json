@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "task": [
+    {
+      "title": "abc",
+      "date": "2023-07-20",
+      "id": 1
+    },
+    {
+      "title": "dev",
+      "date": "1999-02-22",
+      "id": 2
+    },
+    {
+      "title": "paras",
+      "date": "1999-02-22",
+      "id": 3
+    },
+    {
+      "title": "akshit",
+      "date": "2023-07-11",
+      "id": 4
+    },
+    {
+      "title": ",shjtstz",
+      "date": "2023-07-18",
+      "id": 5
+    },
+    {
+      "title": "rudra",
+      "date": "2023-07-20",
+      "id": 6
+    }
+  ]
+}
